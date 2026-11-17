@@ -1,6 +1,6 @@
 # TetherKit Auto-Connect for macOS
 
-Automatically connect your Mac to the internet as soon as you plug in an Android phone with USB tethering enabled. Uses `tetherkit-cli`, a background auto-detection script, and a macOS `LaunchDaemon` orchestrated by a single CMake script.
+Automatically connect your Mac to the internet as soon as you plug in an Android phone with USB tethering enabled. Yeah, it doesn't connect automatically on macOS thanks to Apple 😑 Uses `tetherkit-cli`, a background auto-detection script, and a macOS `LaunchDaemon` orchestrated by a single CMake script.
 
 ## Prerequisites
 - macOS (Apple Silicon or Intel)
