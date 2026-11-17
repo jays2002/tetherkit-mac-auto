@@ -7,7 +7,7 @@ Automatically connect your Mac to the internet as soon as you plug in an Android
 - [Homebrew](https://brew.sh) installed
 - CMake installed (`brew install cmake`)
 
-## Step 1: Enable Automatic USB Tethering on Android
+## Step 1: Enable Automatic USB Tethering on Android (OPTIONAL)
 To make tethering completely hands-free when plugging in your phone:
 1. Open **Settings > About phone** and tap **Build number** 7 times to unlock Developer Options.
 2. Go to **Settings > System > Developer options**.
