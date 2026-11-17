@@ -17,14 +17,15 @@ To make tethering completely hands-free when plugging in your phone:
 Clone this repository and run the CMake installer script as your normal user (do **not** run `cmake` itself with `sudo`; it will prompt for your password only when moving system files):
 
 ```bash
-git clone [https://github.com/jays2002/tetherkit-mac-auto.git](https://github.com/jays2002/tetherkit-mac-auto.git)
+git clone https://github.com/jays2002/tetherkit-mac-auto.git
 cd tetherkit-mac-auto
 cmake -P setup_tetherkit.cmake
+
 ```
 
 ### Or run via one-liner (without cloning):
 ```bash
-curl -fsSL [https://raw.githubusercontent.com/jays2002/tetherkit-mac-auto/main/setup_tetherkit.cmake](https://raw.githubusercontent.com/jays2002/tetherkit-mac-auto/main/setup_tetherkit.cmake) -o /tmp/setup_tetherkit.cmake && cmake -P /tmp/setup_tetherkit.cmake
+curl -fsSL https://raw.githubusercontent.com/jays2002/tetherkit-mac-auto/main/setup_tetherkit.cmake -o /tmp/setup_tetherkit.cmake && cmake -P /tmp/setup_tetherkit.cmake
 ```
 
 ## Logs & Troubleshooting
