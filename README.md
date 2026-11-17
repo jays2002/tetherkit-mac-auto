@@ -27,7 +27,7 @@ cmake -P setup_tetherkit.cmake
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jays2002/tetherkit-mac-auto/main/setup_tetherkit.cmake -o /tmp/setup_tetherkit.cmake && cmake -P /tmp/setup_tetherkit.cmake
 ```
-Now wait for 5 seconds after connecting your Android phone to Mac and turning on usb tethering.
+Now wait for 15-20 seconds after connecting your Android phone to Mac and turning on usb tethering.
 
 ## Logs & Troubleshooting
 Check the live background daemon logs at any time:
